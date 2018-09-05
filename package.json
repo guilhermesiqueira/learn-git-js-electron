@@ -1,0 +1,23 @@
+{
+  "name": "learn-git-js-electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasAndrad/learn-git-js-electron.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucasAndrad/learn-git-js-electron/issues"
+  },
+  "homepage": "https://github.com/LucasAndrad/learn-git-js-electron#readme",
+  "devDependencies": {
+    "electron": "^2.0.8"
+  }
+}
