@@ -1,13 +1,30 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
   <html>
     <head>
       <meta charset="UTF-8">
       <title>Olá Mundo!</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="./index.css" />
     </head>
     <body>
       <h1>Olá Mundo!</h1>
-      Nos estamos usando node <script>document.write(process.versions.node)</script>,
-      Chrome <script>document.write(process.versions.chrome)</script>,
-      e Electron <script>document.write(process.versions.electron)</script>.
+
+
+      <!-- Trigger/Open The Modal -->
+      <button id="myBtn">Open Modal</button>
+
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>Aqui encontramos uma modal bonitinha</p>
+        </div>
+
+      </div>
+
+
     </body>
+    <script src="./main.js"></script>
   </html>
